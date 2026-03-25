@@ -5,8 +5,8 @@ import axios from 'axios';
  * Configured with base URL and default headers
  */
 const apiClient = axios.create({
-  // Base URL for all API requests
-  baseURL: 'http://localhost:5000/api',
+  // Base URL for all API requests pointing to deployed production backend
+  baseURL: 'https://creatorhub-17.onrender.com/api',
 
   // Default headers for all requests
   headers: {
